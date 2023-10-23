@@ -22,7 +22,7 @@ function PokemonTable() {
 								<td>
 									{pokemon.typeList.map((type) => (
 										<>
-											<span className={`${type.toLowerCase()}-type`}>
+											<span className={`type ${type.toLowerCase()}-type`}>
 												{type}
 											</span>{' '}
 										</>
