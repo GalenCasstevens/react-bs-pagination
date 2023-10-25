@@ -5,7 +5,10 @@ body {
 	max-width: 850px !important;
 }
 table {
-	margin-top: 35px;
+	margin-top: 75px;
+}
+.table.table-dark th {
+	background: linear-gradient(#e85fa4, #e80000);
 }
 table td span.type {
 	color: #fff;
@@ -69,6 +72,8 @@ table td span.psychic-type {
 table td span.rock-type {
 	background: linear-gradient(#b8a038, #93802d);
 	border: 1px solid #746523;
+	padding-left: 8px;
+	padding-right: 8px;
 }
 table td span.steel-type {
 	background: linear-gradient(#b8b8d0, #9797ba);
@@ -84,12 +89,25 @@ table td span.dragon-type {
 	background: linear-gradient(#7038f8, #4c08ef);
 	border: 1px solid #3d07c0;
 }
+table td span.ghost-type {
+	background: linear-gradient(#705898, #554374);
+	border: 1px solid #413359;
+}
+table td span.dark-type {
+	background: linear-gradient(#705848, #513f34);
+	border: 1px solid #362a23;
+	padding-left: 8px;
+	padding-right: 8px;
+}
 .id-col,
 .name-col {
 	width: 40%;
 }
 .type-col {
 	width: 20%;
+}
+.pokemon-id {
+	margin-left: 40px;
 }
 .page-item {
 	padding-left: 1px;
